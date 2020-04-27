@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Slideshow</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    
+</head>
+
+<body>
+
+    <h1>My Favorite Anime Characters</h1>
+    
+    <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div id="playPause" onclick="playPauseSlides()"></div>
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+            <div class="imageHolder">
+                <img src="images/kaneki.jpg">1366X768
+                <p class="captionText">Kaneki Ken from Tokyo Ghoul</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/asta.jpg">
+                <p class="captionText">Asta from Black Clover</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/naruto.jpg">
+                <p class="captionText">Naruto Uzumaki from Naruto, Shippuden & Next Generations</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/tanjiro.jpg">
+                <p class="captionText">Tanjiro from Demon Slayer</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/meliodas.jpg">
+                <p class="captionText">Meliodas from The Seven Deadly Sins</p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
+    <script src="myScript.js"></script>
+    </body>
+
+</html>
