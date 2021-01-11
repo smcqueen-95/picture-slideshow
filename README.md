@@ -1,5 +1,4 @@
 # Simple Picture Slideshow
-This project was done in my Coursera Course
 
 ## About the Author
 Name: Samira Mc Queen
